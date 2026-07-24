@@ -1,0 +1,33 @@
+import numpy as np 
+print("Numpy practice as of 24/7/26")
+print("2.1 Arrays:")
+event_views_per_day = np.array([14,35,10,6,22,10,2])
+print(event_views_per_day)
+tickets_sold_per_day = np.array([0,9,2,0,0,1,0])
+print(tickets_sold_per_day) 
+
+print("2.2 Array Operations:")
+print(event_views_per_day + tickets_sold_per_day)
+print(event_views_per_day - 2)
+print(event_views_per_day * 4)
+print(event_views_per_day / 2)
+
+print("2.3 Desriptive Statistics:")
+average_views_per_day = np.mean(event_views_per_day)
+print("Average views per day:", average_views_per_day)
+highest_views_per_day = np.max(event_views_per_day)
+print("Highest views per day:", highest_views_per_day)
+lowest_views_per_day = np.min(event_views_per_day)
+print("Lowest views per day:", lowest_views_per_day)
+total_views = np.sum(event_views_per_day)
+print("Total views:", total_views)
+median_views_per_day = np.median(event_views_per_day)
+print("Median views per day:", median_views_per_day)
+std_dev_views_per_day = np.std(event_views_per_day)
+print("Standard deviation of views per day:", std_dev_views_per_day)
+variance_views_per_day = np.var(event_views_per_day)
+print("Variance of views per day:",variance_views_per_day)  
+tickets_sold_per_event_views_ratio = tickets_sold_per_day / event_views_per_day
+print("Tickets sold per event views ratio:", tickets_sold_per_event_views_ratio)    
+
+
