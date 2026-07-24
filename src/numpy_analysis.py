@@ -7,6 +7,8 @@ tickets_sold_per_day = np.array([0,9,2,0,0,1,0])
 print(tickets_sold_per_day) 
 
 print("2.2 Array Operations:")
+event_interaction = event_views_per_day + tickets_sold_per_day
+print(event_interaction)
 print(event_views_per_day + tickets_sold_per_day)
 print(event_views_per_day - 2)
 print(event_views_per_day * 4)
