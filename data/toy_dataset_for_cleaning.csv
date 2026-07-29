@@ -1,0 +1,11 @@
+event_id,event_name,event_date,venue,capacity,tickets_sold,ticket_price,weather,days_advertised,headliner
+EVT001,Piece by Piece,21/08/2026,Bonobo Chester,100,92,10.0,Sunny,28,Yes
+EVT002,House Sessions,05/09/2026,The Warehouse,250,180,12.0,,35,No
+EVT003,Groove Theory,12/09/2026,Canvas,-180,165,8.0,Cloudy,21,Yes
+EVT004,After Dark,32/09/2026,District,300,220,15.0,Rain,42,No
+EVT005,Deep State,19/09/2026,The Loft,150,128,,Sunny,30,Yes
+EVT006,Night Shift,26/09/2026,Motion Room,400,450,18.0,RAIN,18,No
+EVT007,Frequency,03/10/2026,Bonobo chester,100,75,7.5,Cloudy,14,yes
+EVT008,Subculture,2026-10-10,Factory Hall,500,390,20.0,Clear,-5,No
+EVT009,House Society,17/10/2026,The Arch,350,-20,12.5,,50,Yes
+EVT001,Piece by Piece,21/08/2026,Bonobo Chester,100,92,10.0,Sunny,28,Yes
